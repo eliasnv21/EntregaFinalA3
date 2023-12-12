@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Dosis:wght@500&family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@300;400;500&family=Poppins:wght@100;200;400;500;600&family=Righteous&family=Roboto:wght@700;900&family=Sarala:wght@400;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #171a1f;
+    overflow: hidden;
+}
+
+header{
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 50px;
+    position: relative;
+    right: 50px;
+    gap: 40px;
+}
+
+
+input[value=Login]{
+    width: 90px;
+    height: 35px;
+    border-style: none;
+    background-color: rgb(133, 133, 255);
+    border-radius: 6px;
+    color: #f2f2f2;
+    font-family: 'Poppins', sans-serif;
+    font-size: 9pt;
+    cursor: pointer;
+}
+
+input[value='Criar conta']{
+    width: 90px;
+    height: 35px;
+    border-style: none;
+    background-color: #171a1f;
+    color: #f2f2f2;
+    font-family: 'Poppins', sans-serif;
+    font-size: 9pt;
+    cursor: pointer;
+}
+
+.conteiner{
+    width: 100vw;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteiner1{
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    gap: 20px;
+}
+
+h1, p, input[value='Começar']{
+    position: relative;
+    left: 150px;
+}
+
+h1{
+    font-size: 35pt;
+    color: #f2f2f2;
+}
+
+.text-blue{
+    color: #3587f4;
+}
+
+p{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #7a7a7a;
+}
+
+.btn{
+    width: 105px;
+    height: 35px;
+    border-style: none;
+    border-radius: 6px;
+    background-color: rgb(133, 133, 255);
+    color: #f2f2f2;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+.btn:hover{
+    background-color: #7cb5ff;
+    box-shadow: 0 0 20px rgba(133, 133, 255, 0.4);
+    transform: scale(1.04);
+}
+
+.conteiner2{
+    width: 50%;
+    height: 100%;
+}
+
+img{
+    position: relative;
+    left: 270px;
+    width: 530px;
+    height: 100%;
+}

@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #151616;
+}
+
+.img{
+    height: 100vh;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #000484, #151616);
+}
+
+img{
+    width: 300px;
+}
+
+.conteiner{
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 25pt;
+    position: relative;
+    display: flex;
+    width: 85%;
+}
+
+form{
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(99, 99, 99);
+}
+
+.usuario, .senha, .email{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 10pt;
+}
+
+input:focus{
+    outline: 0;
+}
+
+#user, #password, #email{
+    width: 300px;
+    height: 35px;
+    border-style: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    padding-left: 35px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    background-color: #242525;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+}
+
+#btn{
+    height: 35px;
+    width: 333px;
+    border-style: none;
+    background-color: rgb(133, 133, 255);
+    color: #fff;
+    transition: 0.3s all ease;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#btn:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgb(107, 0, 156);
+}
+
+.line{
+    position: relative;
+    width: 333px;
+    height: 1px;
+    background-color: #6b6974;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 10pt;
+}
+
+.icon-senha{
+    width: 16px;
+    display: flex;
+    position: relative;
+    bottom: 32px;
+    left: 10px;
+}
+
+.icon-perfil{
+    width: 16px;
+    display: flex;
+    position: relative;
+    left: 10px;
+    top: 32px;
+}
+
+#user-label{
+    position: relative;
+    top: 22px;
+}
+
+#email-label{
+    position: relative;
+    top: 23px;
+}
+
+
+.icon-email{
+    width: 16px;
+    display: flex;
+    position: relative;
+    left: 10px;
+    top: 32px;
+}
+
+a{
+    text-decoration: none;
+    color:  rgb(133, 133, 255);
+}
+
+.usuario{
+    position: relative;
+    top: 20px;
+}
+

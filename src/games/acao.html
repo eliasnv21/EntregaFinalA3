@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="games.css">
+    <title>MotionGames</title>
+</head>
+<body>
+
+    <div class="container">
+        <aside>
+            <div class="toggle">
+                <div class="logo">
+                    <img src="../icons/icon-login.png" alt="">
+                    <h2>Motion<span class="danger">Games</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">
+                        close
+                    </span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="../principal.html">
+                    <span class="material-icons-sharp" >
+                        home
+                    </span>
+                    <h3>Home</h3>
+                </a>
+
+                <a href="#"  class="active">
+                    <span class="material-icons-sharp">
+                        sports_esports
+                    </span>
+                    <h3>Jogos</h3>
+                </a>
+                
+                <a href="jogos.html">
+                    <span class="material-icons-sharp">
+                        star
+                    </span>
+                    <h3>Meus Jogos</h3>
+                </a>
+                
+                <a href="inicio.html">
+                    <span class="material-icons-sharp">
+                        logout
+                    </span>
+                    <h3>Sair</h3>
+                </a>
+            </div>
+        </aside>
+        
+        <div class="nav-bar">
+            <div class="busca">
+                <span class="material-icons-sharp" id="lupa">
+                    search
+                </span>
+                
+                <input id="buscar" type="text" placeholder="Pesquisar">
+            </div>
+        </div>
+            
+        <aside>
+            <div class="perfil">
+                <span>Olá, <strong>Rafael</strong></span>
+                <span class="material-icons-sharp">
+                    person
+                </span>
+            </div>
+        </aside>
+
+        <div class="content">
+            <div class="header">
+                <span>Cadastro de Funcionários</span>
+                <button onclick="openModal()" id="new">Incluir</i></button>
+              </div>
+          
+              <div class="divTable">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Nome</th>
+                      <th>Função</th>
+                      <th>Salário</th>
+                      <th class="acao">Editar</th>
+                      <th class="acao">Excluir</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                  </tbody>
+                </table>
+              </div>
+          
+              <div class="modal-container">
+                <div class="modal">
+                  <form>
+                    <label for="m-nome">Nome</label>
+                    <input id="m-nome" type="text" required />
+            
+                    <label for="m-funcao">Função</label>
+                    <input id="m-funcao" type="text" required />
+            
+                    <label for="m-salario">Salário</label>
+                    <input id="m-salario" type="number" required />
+                    <button id="btnSalvar">Salvar</button>
+                  </form>
+                </div>
+              </div>
+    </div>
+
+
+    <script src="jogos.js"></script>
+</body>
+</html>
